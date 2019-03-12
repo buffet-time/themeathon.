@@ -2,6 +2,14 @@
 	background-color: #333333;
 	height: 100vh;
 }
+#social-media span {
+	display: inline-block;
+	background-image: url("../assets/themeathon_social.svg");
+}
+#discord {background-position: 0 0; margin: 0 100px; height: 40px; width: 35px;}
+#twitch  {background-position: -35px 0; margin-right:100px; height: 40px; width: 35px;}
+#twitter {background-position: -70px 0; margin-right:100px; height: 40px; width: 50px;}
+#youtube {background-position: -120px 0; margin-right:100px; height: 40px; width: 56.875px;}
 h1 {
 	font-weight: 300;
 }
