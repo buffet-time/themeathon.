@@ -2,11 +2,6 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
 
 @Component
 export default class HelloWorld extends Vue {
-	public blah?: string = 'fuck my life';
-
-	@Prop(String)
-	private msg?: string;
-
 	private items: object[] = [
 		{id: 'discord',
 		 href: 'https://discord.themeathon.com/'},
