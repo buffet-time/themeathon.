@@ -1,5 +1,6 @@
 @charset "utf-8";
 :root {
+
 	--main-bg-color: hsl(0, 0%, 20%);
 	--themeathon-red: hsl(0, 97%, 63%);
 
@@ -7,6 +8,7 @@
 }
 .main-container {
 	background-color: var(--main-bg-color);
+
 	display: flex;
 	flex: initial;
 	flex-direction: column;
