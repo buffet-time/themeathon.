@@ -1,34 +1,37 @@
 <div class="main-container">
-    <div class="main-text-wrapper">
-        <h1>
-            WELCOME TO THEMEATHON!
-        </h1>
-        <p>
-            Themeathon is a speedrunning charity marathon with a distinct theme for each event!<br>
-            We host both online and in person marathons in order to raise money for Save the Children
-        </p>
-        <h2>
-            DETAILS ON UPCOMING EVENTS
-        </h2>
-        <p>
-            Details for the location of the upcoming Themeathon are forthcoming.<br>
-            The theme for the event is Japan. If you want to submit you need not adhere to the theme <br>
-        </p>
-        <p>Stay Tuned!</p>
-    </div>
-    <div class="image-wrapper">
-        <img class="grid" src="../assets/grid.svg" alt="">
-    </div>
-    <!--container for social media links-->
-    <div class="social-container">
-        <h3>
-            CONNECT WITH US ON SOCIAL MEDIA
-        </h3>
-        <!--items list can be found in this component's typescript file-->
-        <ul id="social-media">
-            <li v-for="item in items">
-                <a :href=item.href><span :id=item.id></span></a>
-            </li>
-        </ul>
-    </div>
+	<div class="main-text-wrapper">
+		<h1>
+			WELCOME TO THEMEATHON!
+		</h1>
+		<p>
+			Themeathon is a speedrunning charity marathon with a distinct theme for
+			each event!<br />
+			We host both online and in person marathons in order to raise money for
+			Save the Children
+		</p>
+		<h2>
+			DETAILS ON UPCOMING EVENTS
+		</h2>
+		<p>
+			Details for the location of the upcoming Themeathon are forthcoming.<br />
+			The theme for the event is Japan. If you want to submit you need not
+			adhere to the theme <br />
+		</p>
+		<p>Stay Tuned!</p>
+	</div>
+	<div class="image-wrapper">
+		<img class="grid" src="../assets/grid.svg" alt=""
+	</div>
+	container for social media links
+	<div class="social-container">
+		<h3>
+			CONNECT WITH US ON SOCIAL MEDIA
+		</h3>
+		<!--items list can be found in this component's typescript file-->
+		<ul id="social-media">
+			<li v-for="item in items">
+				<a :href="item.href"><span :id="item.id"></span></a>
+			</li>
+		</ul>
+	</div>
 </div>
