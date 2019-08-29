@@ -1,14 +1,19 @@
 <template>
-  <AppComponent/>
+	<div>
+		<AppComponent />
+		<PlayerComponent />
+	</div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import AppComponent from '@/components/app.component.vue' // @ is an alias to /src
+import AppComponent from '../components/App.vue' // idk why it says its not a module
+import PlayerComponent from '../components/Player.vue'
 
 @Component({
 	components: {
-		AppComponent
+		AppComponent,
+		PlayerComponent
 	}
 })
 export default class Home extends Vue {}

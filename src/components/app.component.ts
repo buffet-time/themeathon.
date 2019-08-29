@@ -1,4 +1,5 @@
 import { Component, Prop, Vue } from 'vue-property-decorator'
+// import Twitch from 'twitch-js'
 
 @Component
 export default class HelloWorld extends Vue {
@@ -8,4 +9,14 @@ export default class HelloWorld extends Vue {
 		{ id: 'twitter', href: 'https://www.twitter.com/Themeathon' },
 		{ id: 'youtube', href: 'http://www.youtube.com/themeathon' }
 	]
+
+	// public mounted() {
+	// 	const options = {
+	// 		width: 800,
+	// 		height: 450,
+	// 		channel: 'themeathon'
+	// 	}
+	// 	const player = new Twitch.Player('twitch-player', options)
+	// 	player.setVolume(0.5)
+	// }
 }
